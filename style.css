@@ -3,13 +3,14 @@
     width:500px;
     height:500px;   
     border:1px black solid;
+    position:relative;
 }
 .game > *{
     position:absolute;   
 }
 .start-text{
-    margin:auto;
     text-align:center;
+    width:100%;
 }
 .obstacle{
     background-color:red;
@@ -20,7 +21,7 @@
 
 /*starting a game*/
 .game:hover .start-text{
-    visibility:collapse
+    visibility:collapse;
 }
 
 
