@@ -1,7 +1,19 @@
-body{
-    
+//setup game
+.game{
+    width:500px;
+    height:500px;   
+    border:1px black solid;
+}
+.game > *{
+    position:absolute;   
+}
+.obstacle{
+    background-color:red;
 }
 
+
+
+//starting a game
 .start-text{
     margin:auto;
     text-align:center;
@@ -10,18 +22,11 @@ body{
     visibility:collapse
 }
 
-.game{
-    width:500px;
-    height:500px;   
-    border:1px black solid;
-}
 
+
+//running the game
 .move-down{
     transition:transform 5s linear;
     transform:translate(0px,500px);
 }
 
-.obstacle{
-    background-color:red;
-    position:absolute
-}
