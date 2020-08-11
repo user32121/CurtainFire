@@ -17,11 +17,10 @@
     transform:translate(var(--x1),var(--y1));
 }
 .game-over {
-    background-color: pink;
+    background-color: #FFC0CB99;
     width: 100%;
     height: 100%;
     text-align: center;
-    z-index: -1;
     visibility:hidden;
 }
 .game-over-text{
