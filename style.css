@@ -1,5 +1,9 @@
-//setup game
-
+/*setup game*/
+.game{
+    width:500px;
+    height:500px;   
+    border:1px black solid;
+}
 .game > *{
     position:absolute;   
 }
@@ -9,7 +13,7 @@
 
 
 
-//starting a game
+/*starting a game*/
 .start-text{
     margin:auto;
     text-align:center;
@@ -18,13 +22,9 @@
     visibility:collapse
 }
 
-.game{
-    width:500px;
-    height:500px;   
-    border:1px black solid;
-}
 
-//running the game
+
+/*running the game*/
 .move-down{
     transition:transform 5s linear;
     transform:translate(0px,500px);
