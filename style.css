@@ -8,7 +8,7 @@ body{
 }
 
 .move-down{
-    animation:translate-down 10s;
+    animation:translate-down 5s linear;
 }
 
 .game{
