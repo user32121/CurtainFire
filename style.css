@@ -28,6 +28,6 @@
 /*running the game*/
 .game:hover .move-down{
     transition:transform var(--time) linear;
-    transform:translate(var(--posx),var(--posy + --dist));
+    transform:translate(var(--posx),calc(var(--posy) + var(--dist)));
 }
 
