@@ -6,6 +6,9 @@ body{
     margin:auto;
     text-align:center;
 }
+.game:hover .start-text{
+    visibility:collapse
+}
 
 .game{
     width:500px;
