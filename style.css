@@ -18,14 +18,14 @@
 }
 .game-over {
     background-color: pink;
+    width: 500px;
     height: 500px;
-    text-align: center;
     display: table-cell;
+    text-align: center;
     vertical-align: middle;
     position: relative;
-    width: 500px;
     z-index: -1;
-    visibility:
+    visibility:hidden;
 }
 
 
