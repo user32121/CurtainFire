@@ -1,9 +1,5 @@
 //setup game
-.game{
-    width:500px;
-    height:500px;   
-    border:1px black solid;
-}
+
 .game > *{
     position:absolute;   
 }
@@ -22,7 +18,11 @@
     visibility:collapse
 }
 
-
+.game{
+    width:500px;
+    height:500px;   
+    border:1px black solid;
+}
 
 //running the game
 .move-down{
