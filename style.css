@@ -8,5 +8,5 @@ body{
 }
 
 .move-down{
-    animation:transflate-down 10s;
+    animation:translate-down 10s;
 }
