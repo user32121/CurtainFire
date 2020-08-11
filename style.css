@@ -7,6 +7,10 @@
 .game > *{
     position:absolute;   
 }
+.start-text{
+    margin:auto;
+    text-align:center;
+}
 .obstacle{
     background-color:red;
 }
@@ -14,10 +18,6 @@
 
 
 /*starting a game*/
-.start-text{
-    margin:auto;
-    text-align:center;
-}
 .game:hover .start-text{
     visibility:collapse
 }
@@ -25,7 +25,7 @@
 
 
 /*running the game*/
-.move-down{
+.game:hover .move-down{
     transition:transform 5s linear;
     transform:translate(0px,500px);
 }
