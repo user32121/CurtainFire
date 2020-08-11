@@ -3,10 +3,21 @@ body{
 }
 
 @keyframes translate-down{
-    from{transform:translate(0,0);}
-    to{transform:translate(0,100%);}
+    from{transform:translate(0px,0px);}
+    to{transform:translate(0px,500px);}
 }
 
 .move-down{
     animation:translate-down 10s;
+}
+
+.game{
+    width:500px;
+    height:500px;   
+}
+
+.obstacle{
+    width:100px;
+    height:50px;
+    background-color:red;
 }
