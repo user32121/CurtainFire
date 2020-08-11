@@ -2,6 +2,11 @@ body{
     
 }
 
+.start-text{
+    margin:auto;
+    text-align:center;
+}
+
 .game{
     width:500px;
     height:500px;   
