@@ -14,7 +14,7 @@
 }
 .obstacle{
     background-color:red;
-    transform:translate(var(--x1),var(--y1));
+    transform:translate(var(--x1),var(--y1)) rotate(var(--rot1));
 }
 .game-over {
     background-color: #FFC0CB99;
@@ -41,7 +41,7 @@
 /*running the game*/
 .game:hover .obstacle{
     transition:transform var(--time) linear var(--delay);
-    transform:translate(var(--x2),var(--y2));
+    transform:translate(var(--x2),var(--y2)) rotate(var(--rot2));
 }
 
 
