@@ -2,19 +2,15 @@ body{
     
 }
 
-@keyframes translate-down{
-    from{transform:translate(0px,0px);}
-    to{transform:translate(0px,500px);}
-}
-
-.move-down{
-    animation:translate-down 5s linear forwards;
-}
-
 .game{
     width:500px;
     height:500px;   
     border:1px black solid;
+}
+
+.game:hover .move-down{
+    transition:transform 5s linear;
+    transform:translate(0px,500px);
 }
 
 .obstacle{
