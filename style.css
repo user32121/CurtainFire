@@ -14,6 +14,14 @@
 }
 .obstacle{
     background-color:red;
+    --x1:0px;  
+    --y1:0px; 
+    --x2:0px; 
+    --y2:0px; 
+    --time:1s; 
+    --delay:0s; 
+    --rot1:0deg; 
+    --rot2:0deg;
     transform:translate(var(--x1),var(--y1)) rotate(var(--rot1));
 }
 .game-over {
