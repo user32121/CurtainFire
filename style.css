@@ -16,6 +16,17 @@
     background-color:red;
     transform:translate(var(--x1),var(--y1));
 }
+.game-over {
+    background-color: pink;
+    height: 500px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 500px;
+    z-index: -1;
+    visibility:
+}
 
 
 
@@ -32,3 +43,9 @@
     transform:translate(var(--x2),var(--y2));
 }
 
+
+
+/*checking game over*/
+.obstacle:hover ~ .game-over, .game-over:hover{
+    visibility: visible;
+}
