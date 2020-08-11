@@ -16,7 +16,7 @@ body{
     border:1px black solid;
 }
 
-.game:hover .move-down{
+.move-down{
     transition:transform 5s linear;
     transform:translate(0px,500px);
 }
