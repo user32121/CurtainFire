@@ -13,7 +13,7 @@
 }
 .obstacle{
     background-color:red;
-    transform:translate(var(--posx),var(--posy));
+    transform:translate(var(--x1),var(--y1));
 }
 
 
@@ -26,8 +26,8 @@
 
 
 /*running the game*/
-.game:hover .move-down{
-    transition:transform var(--time) linear;
-    transform:translate(var(--posx),calc(var(--posy) + var(--dist)));
+.game:hover .obstacle{
+    transition:transform var(--time) linear var(--delay);
+    transform:translate(var(--x2),var(--y2));
 }
 
